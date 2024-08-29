@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "web": "dx serve"
+  },
+  "dependencies": {
+    "daisyui": "^4.12.10"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
