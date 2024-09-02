@@ -1369,6 +1369,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-webassembly"
+version = "0.1.0"
+dependencies = [
+ "dioxus",
+ "dioxus-logger",
+]
+
+[[package]]
 name = "rustc-hash"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1635,16 +1643,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "test1"
-version = "0.1.0"
-dependencies = [
- "dioxus",
- "dioxus-logger",
- "tracing",
- "tracing-subscriber",
 ]
 
 [[package]]
