@@ -1643,6 +1643,8 @@ version = "0.1.0"
 dependencies = [
  "dioxus",
  "dioxus-logger",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
