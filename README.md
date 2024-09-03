@@ -16,5 +16,5 @@ npm run web
 - Open the browser to http://localhost:8080
 
 - Configure Project: https://dioxuslabs.com/learn/0.5/CLI/configure
-- tailwind css: https://tailwindcss.com/docs/installation
-- daisyui: https://daisyui.com/docs/install/
+- Tailwind css: https://tailwindcss.com/docs/installation
+- Daisy UI: https://daisyui.com/docs/install/
