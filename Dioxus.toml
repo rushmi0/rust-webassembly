@@ -11,7 +11,7 @@ default_platform = "web"
 out_dir = "dist"
 
 # resource (assets) file folder
-asset_dir = "assets"
+asset_dir = "src/assets"
 
 [web.app]
 
@@ -30,8 +30,8 @@ watch_path = ["src", "assets"]
 [web.resource]
 
 # CSS style file
-
 style = ["/tailwind.css"]
+
 
 # Javascript code file
 script = []

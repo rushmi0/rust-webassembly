@@ -1,14 +1,16 @@
 [package]
 name = "rust-webassembly"
 version = "0.1.0"
-authors = ["rushmi0 <gcalku@gmail.com>"]
+description = "อ่านหาพ่องงง"
+authors = ["rushmi0"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 
-dioxus = { version = "0.5", features = ["web"] }
+dioxus = { version = "0.5", features = ["web", "router"] }
 
 # Debug
 dioxus-logger = "0.5.1"
+manganis = "0.2.2"

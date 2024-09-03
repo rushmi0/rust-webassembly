@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "web": "dx serve"
+    "web": "dx serve --hot-reload",
+    "build": "dx build --release"
   },
   "dependencies": {
     "daisyui": "^4.12.10"

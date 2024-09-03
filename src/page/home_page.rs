@@ -4,9 +4,11 @@ use dioxus::prelude::*;
 
 #[component]
 pub fn HomePage() -> Element {
+    const STYLE: &str = manganis::mg!(file("src/styles/main.css"));
+
     rsx! {
-        link { rel: "stylesheet", href: "./main.css" }
         img { src: "header.svg", id: "header" }
+        link { rel: "stylesheet", href: STYLE }
         div { id: "links",
             a { target: "_blank", href: "https://dioxuslabs.com/learn/0.5/", "📚 Learn Dioxus" }
             a { target: "_blank", href: "https://dioxuslabs.com/awesome", "🚀 Awesome Dioxus" }

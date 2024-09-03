@@ -1,7 +1,7 @@
 #![allow(non_snake_case)]
 
 use dioxus::prelude::*;
-use crate::page::home_page::HomePage;
+use crate::page::HomePage;
 
 #[component]
 pub fn App() -> Element {
