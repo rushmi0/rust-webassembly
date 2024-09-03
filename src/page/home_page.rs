@@ -5,9 +5,10 @@ use dioxus::prelude::*;
 #[component]
 pub fn HomePage() -> Element {
     const STYLE: &str = manganis::mg!(file("src/styles/main.css"));
+    const SVG_FILE: &str = manganis::mg!(file("src/assets/header.svg"));
 
     rsx! {
-        img { src: "header.svg", id: "header" }
+        img { src: SVG_FILE, id: "header" }
         link { rel: "stylesheet", href: STYLE }
         div { id: "links",
             a { target: "_blank", href: "https://dioxuslabs.com/learn/0.5/", "📚 Learn Dioxus" }

@@ -17,4 +17,4 @@ npm run web
 
 - Configure Project: https://dioxuslabs.com/learn/0.5/CLI/configure
 - Tailwind css: https://tailwindcss.com/docs/installation
-- Daisy UI: https://daisyui.com/docs/install/
+- Daisy ui: https://daisyui.com/docs/install

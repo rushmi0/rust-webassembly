@@ -10,8 +10,8 @@ default_platform = "web"
 # `build` & `serve` dist path
 out_dir = "dist"
 
-# resource (assets) file folder
-asset_dir = "src/assets"
+# resource (public) file folder
+asset_dir = "public"
 
 [web.app]
 
