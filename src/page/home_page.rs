@@ -3,7 +3,6 @@ use dioxus::prelude::*;
 #[component]
 pub fn HomePage() -> Element {
     rsx! {
-        link { rel: "stylesheet", href: "./main.css" }
         img { src: "header.svg", id: "header" }
         div { id: "links",
             a { target: "_blank", href: "https://dioxuslabs.com/learn/0.5/", "📚 Learn Dioxus" }
