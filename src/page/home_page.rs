@@ -1,6 +1,7 @@
 #![allow(non_snake_case)]
 
 use dioxus::prelude::*;
+use crate::components::Counter;
 
 #[component]
 pub fn HomePage() -> Element {
@@ -10,6 +11,8 @@ pub fn HomePage() -> Element {
     rsx! {
         img { src: SVG_FILE, id: "header" }
         link { rel: "stylesheet", href: STYLE }
+        Counter {}
+
         div { id: "links",
             a { target: "_blank", href: "https://dioxuslabs.com/learn/0.5/", "📚 Learn Dioxus" }
             a { target: "_blank", href: "https://dioxuslabs.com/awesome", "🚀 Awesome Dioxus" }
