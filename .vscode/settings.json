@@ -5,5 +5,5 @@
   ],
   "tailwindCSS.includeLanguages": {
     "rust": "html"
-  },
+  }
 }

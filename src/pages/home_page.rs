@@ -14,7 +14,7 @@ pub fn HomePage() -> Element {
         Counter {}
 
         div { id: "links",
-            a { target: "_blank", href: "https://dioxuslabs.com/learn/0.5/", "📚 Learn Dioxus" }
+            a { target: "_blank", href: "https://dioxuslabs.com/learn/0.5/", "📚 Learn Dioxins" }
             a { target: "_blank", href: "https://dioxuslabs.com/awesome", "🚀 Awesome Dioxus" }
             a { target: "_blank", href: "https://github.com/dioxus-community/", "📡 Community Libraries" }
             a { target: "_blank", href: "https://github.com/DioxusLabs/dioxus-std", "⚙️ Dioxus Standard Library" }

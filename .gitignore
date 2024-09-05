@@ -4,7 +4,7 @@
 /dist/
 /static/
 /.dioxus/
-/.idea/developer-tools.xml
+.idea/developer-tools.xml
 
 /node_modules
 
