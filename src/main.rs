@@ -1,7 +1,7 @@
 #![allow(non_snake_case)]
 
 pub mod app;
-pub mod page;
+pub mod pages;
 mod components;
 
 use app::App;
