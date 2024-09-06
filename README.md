@@ -1,4 +1,4 @@
-# Dioxus + tailwindcss + daisyui
+# Dioxus v0.5 + Tailwindcss + daisyui
 
 1. Install npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 2. Run the following command in the root of the project to start the tailwind CSS compiler:
