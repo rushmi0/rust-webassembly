@@ -34,6 +34,7 @@ style = ["/tailwind.css"]
 
 
 # Javascript code file
+# "https://cdn.tailwindcss.com/3.4.5"
 script = []
 
 [web.resource.dev]

@@ -1,3 +1,3 @@
-pub mod counter;
+pub mod banner;
 
-pub use counter::Counter;
+pub use banner::Banner;

@@ -9,7 +9,7 @@ edition = "2021"
 
 [dependencies]
 
-dioxus = { version = "0.5", features = ["web", "router"] }
+dioxus = { version = "0.5", features = ["web"] }
 
 # Debug
 dioxus-logger = "0.5.1"

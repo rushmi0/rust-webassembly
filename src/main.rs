@@ -2,7 +2,8 @@
 
 pub mod app;
 pub mod pages;
-mod components;
+pub mod components;
+pub mod styles;
 
 use app::App;
 
