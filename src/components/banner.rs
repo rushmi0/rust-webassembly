@@ -41,7 +41,7 @@ pub fn Banner() -> Element {
                             a {
                                 href: "https://dioxuslabs.com/learn/0.5/reference",
                                 target: "_blank",
-                                class: "w-[150px] h-[50px] bg-[#00A8D6] text-white rounded-md flex items-center justify-center",
+                                class: "hover:-translate-y-2 w-[150px] h-[50px] bg-[#00A8D6] text-white rounded-md flex items-center justify-center",
                                 "Read the docs"
                             }
                         }
@@ -50,7 +50,7 @@ pub fn Banner() -> Element {
                             a {
                                 href: "https://discord.gg/XgGxMSkvUM",
                                 target: "_blank",
-                                class: "w-[150px] h-[50px] bg-[#E96020] text-white rounded-md flex items-center justify-center",
+                                class: "hover:-translate-y-2 w-[150px] h-[50px] bg-[#E96020] text-white rounded-md flex items-center justify-center",
                                 "Join Discord"
                             }
                         }
