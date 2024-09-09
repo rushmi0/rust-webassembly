@@ -11,7 +11,7 @@ default_platform = "web"
 out_dir = "dist"
 
 # resource (public) file folder
-asset_dir = "public"
+asset_dir = "assets"
 
 [web.app]
 
@@ -34,7 +34,6 @@ style = ["/tailwind.css"]
 
 
 # Javascript code file
-# "https://cdn.tailwindcss.com/3.4.5"
 script = []
 
 [web.resource.dev]
