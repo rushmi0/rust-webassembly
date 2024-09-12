@@ -3,10 +3,8 @@
     "web": "dx serve --hot-reload",
     "clean": "dx clean"
   },
-  "dependencies": {
-    "daisyui": "^4.12.10"
-  },
   "devDependencies": {
+    "daisyui": "^4.12.10",
     "tailwindcss": "^3.4.10"
   }
 }
